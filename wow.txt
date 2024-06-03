@@ -3,3 +3,5 @@ I am new to C, but I love to learn.
 
 Like how I learned to program this  
 	printf("hello, world\n")
+
+// This is a joke guys.
