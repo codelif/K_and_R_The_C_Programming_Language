@@ -1,14 +1,20 @@
 #include <stdio.h>
+int get_line(char *s, int max){
+  int i, c;
+  for (i = 0; i < max-1 && (c=getchar()) != '\0' && c != '\n'; i++){
+    s[i] = c;
+  }
+  if (c == '\n')
+    s[i++] = '\n';
 
-int main(){
-  int a = 10;
-  int b = 31;
-  printf("%d %d\n", a, b);
-  a ^= b;
-  b ^= a;
-  a ^= b;
-
-
-  printf("%d %d\n", a, b);
+  s[i] = '\0';
+  return i;
 }
 
+int main(){
+  char s[1000];
+  int len;
+
+  len = get_line(s, 1000);
+  printf("%d", len);
+}
