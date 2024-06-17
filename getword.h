@@ -1,0 +1,1 @@
+char getword(char*, int);
