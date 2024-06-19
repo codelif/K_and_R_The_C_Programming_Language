@@ -1,0 +1,9 @@
+Hello, this is Harsh Sharma.    
+I am new to C, but I love to learn.    
+
+Like how I learned to program this  
+	printf("hello, world\n")
+
+// This is a joke guys.
+    printf("%s ||||||| %s\n", s1, s2);
+    printf("%d, %d ===== %d\n", c1, c2, EOF);
